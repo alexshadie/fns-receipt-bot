@@ -1,0 +1,28 @@
+{
+    "name": "alexshadie/fns-receipt-bot",
+    "description": "Telegram bot for checking receipt information",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Alex Shadie",
+            "email": "alex@astra.ws"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/alexshadie/fns-receipt-bot/issues",
+        "source": "https://github.com/alexshadie/fns-receipt-bot"
+    },
+    "require": {
+        "psr/log": "1.0.2",
+        "php": ">=5.4.0",
+        "alexshadie/telegram-bot": "dev-master",
+        "alexshadie/fns-integration": "*"
+    },
+    "license": "BSD-3-Clause",
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "alexshadie\\FnsReceiptBot\\": ["src/"]
+        }
+    }
+}
