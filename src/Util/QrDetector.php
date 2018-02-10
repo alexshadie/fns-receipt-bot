@@ -8,7 +8,7 @@ class QrDetector
 {
     private $filename;
     private $qrCodeReader;
-    private $tmpPath = "/home/alex/tmp/qr/";
+    private $tmpPath = TMP_PATH . "/";
     private $threshold = 0.5;
 
     public function __construct(string $filename)
