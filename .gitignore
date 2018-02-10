@@ -24,3 +24,10 @@ composer.phar
 
 # phpunit itself is not needed
 phpunit.phar
+
+
+# Auth data
+auth.php
+
+# TMP
+/tmp

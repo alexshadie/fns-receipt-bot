@@ -14,9 +14,11 @@
     },
     "require": {
         "psr/log": "1.0.2",
-        "php": ">=5.4.0",
+        "php": ">=7.1",
         "alexshadie/telegram-bot": "dev-master",
-        "alexshadie/fns-integration": "*"
+        "alexshadie/fns-integration": "*",
+        "monolog/monolog": "^1.17",
+        "libern/qr-code-reader": "^1.0"
     },
     "license": "BSD-3-Clause",
     "minimum-stability": "stable",
